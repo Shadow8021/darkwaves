@@ -14,4 +14,4 @@ this is a simple android ransomware, it will encrypted all the files in your and
     python3 ransomware.py
 
 # author 
-Instagram @gregoroyaga
+Instagram [@gregoroyaga](https://www.instagram.com/gregoroyaga?igsh=eGphaGp1dHJxdWs0)
