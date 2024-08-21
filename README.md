@@ -13,3 +13,5 @@ $ python3 server.py
 
 $ python3 ransomware.py
 
+# author 
+    Instagram @shadow8021
