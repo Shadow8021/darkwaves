@@ -21,5 +21,5 @@ Facebook [@gregoroyaga](https://www.facebook.com/gregor.oyaga.3)
 Telegram [@gregoroyaga](t.me/AnonymousEyes821)
 
 ### Credit's
-Copyright © 2021 by [Shadow 8021](https://github.com/Shadow8021)
+Copyright © 2024 by [Shadow 8021](https://github.com/Shadow8021)
 
