@@ -1,4 +1,4 @@
-<img title="DARKWAVES" src="https://img.shields.io/badge/CODENAME%20-DARKWAVES-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge"> <img title="DARKWAVES" src="https://img.shields.io/badge/VERSION%20-3.0-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge">
+<img title="darkwaves" src="https://img.shields.io/badge/CODENAME%20-darkwaves-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge"> <img title="darkwaves" src="https://img.shields.io/badge/VERSION%20-1.5-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge">
 # darkwaves
 this is a simple android ransomware, it will encrypted all the files in your android device 😈
 
