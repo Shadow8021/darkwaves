@@ -15,3 +15,10 @@ this is a simple android ransomware, it will encrypted all the files in your and
 
 # author 
 Instagram [@gregoroyaga](https://www.instagram.com/gregoroyaga?igsh=eGphaGp1dHJxdWs0)
+
+Facebook [@gregoroyaga](https://www.facebook.com/gregor.oyaga.3)
+
+Telegram [@gregoroyaga](t.me/AnonymousEyes821)
+
+
+
