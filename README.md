@@ -7,6 +7,9 @@ $ git clone https://github.com/Shadow8021/darkwaves.git
 
 $ cd darkwaves
 
+$ bash install.sh
+
 $ python3 server.py
 
 $ python3 ransomware.py
+
