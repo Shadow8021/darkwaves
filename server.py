@@ -7,13 +7,25 @@ os.system('clear')
 # Génération d'une clé
 key = Fernet.generate_key()
 print("Votre clé est : ", key.decode())  # Pour afficher la clé en texte lisible
+baner = """
+        ::::::::::::::::::::::::::::::::::::::::::
+        ::::::::::::::::::::::::::::::::::::::::::
+        :: ____                                 ::
+        ::/ ___|  ___ _ ____   _____ _   _ _ __ ::
+        ::\___ \ / _ \ '__\ \ / / _ \ | | | '__|::
+        :: ___) |  __/ |   \ V /  __/ |_| | |   ::
+        ::|____/ \___|_|    \_/ \___|\__,_|_|   ::
+        ::                                      ::
+        ::::::::::::::::::::::::::::::::::::::::::
+        ::::::::::::::::::::::::::::::::::::::::::
 
+"""
 # Création du socket et binding
 host, port = ("127.0.0.1", 5566)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
 s.listen()
-print("En écoute... ")
+print("le serveur est en écoute... ")
 
 # Acceptation des clients
 try:
