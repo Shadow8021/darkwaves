@@ -25,7 +25,10 @@ host, port = ("127.0.0.1", 5566)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
 s.listen()
-print("le serveur est en écoute... ")
+print(baner)
+print("::::::::::::::::::::::::::::::::::::::::::::::")
+print("Le serveur est prêt à accepter les connexions sur {}:{}".format(host, port))
+
 
 # Acceptation des clients
 try:
