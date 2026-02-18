@@ -3,10 +3,17 @@ import socket
 from cryptography.fernet import Fernet
 import os
 
+RED = "\033[38;5;196m"  
+YELLOW = "\033[38;5;226m"
+GREEN = "\033[38;5;46m" 
+BLUE = "\033[38;5;32m"
+RESET = "\033[0m"
+ORANGE = "\033[38;5;208m"
+
 os.system('clear')
 # Génération d'une clé
 key = Fernet.generate_key()
-print("Votre clé est : ", key.decode())  # Pour afficher la clé en texte lisible
+print("Votre clé est : ", GREEN + key.decode() + RESET)  # Pour afficher la clé en texte lisible
 baner = """
         ::::::::::::::::::::::::::::::::::::::::::
         ::::::::::::::::::::::::::::::::::::::::::
@@ -27,21 +34,21 @@ s.bind((host, port))
 s.listen()
 print(baner)
 print("::::::::::::::::::::::::::::::::::::::::::::::")
-print("Le serveur est prêt à accepter les connexions sur {}:{}".format(host, port))
+print(GREEN + "Le serveur est prêt à accepter les connexions sur {}:{}".format(host, port))
 
 
 # Acceptation des clients
 try:
     while True:
         conn, addr = s.accept()
-        print(addr, "connected")
+        print(addr, GREEN + "connected")
         
         # Vérification de la clé
-        print("Vérification de la clé...")
+        print(BLUE + "Vérification de la clé...")
         msg = conn.recv(1024)
         if msg == b'key':  # Assurez-vous que le message est en bytes
             conn.send(key)
-            print("La clé a été envoyée")
+            print(GREEN + "La clé a été envoyée")
         
         # Fermeture de la connexion client
         conn.close()
