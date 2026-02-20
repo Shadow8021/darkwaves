@@ -1,6 +1,6 @@
 # coding: utf-8
 import socket
-from cryptography import Fernet
+from cryptography.fernet import Fernet
 import os
 
 RED = "\033[38;5;196m"  
