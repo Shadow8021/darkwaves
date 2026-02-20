@@ -23,10 +23,10 @@ baner = """
         ::|____/ \___|_|    \_/ \___|\__,_|_|   ::
         ::                                      ::
         ::::::::::::::::::::::::::::::::::::::::::
-        :::::::: By- sh@dow821@gmail.com :::::::::
+        ::::::::{}By- Sh@dow821@gmail.com{}:::::::::
         ::::::::::::::::::::::::::::::::::::::::::
 
-"""
+""".format(ORANGE, RESET)
 # Création du socket et binding
 host, port = ("127.0.0.1", 5566)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
