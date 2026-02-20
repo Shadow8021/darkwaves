@@ -1,6 +1,6 @@
 # coding: utf-8
 import socket
-from cryptography.fernet import Fernet
+from cryptography import Fernet
 import os
 
 RED = "\033[38;5;196m"  
@@ -13,7 +13,6 @@ ORANGE = "\033[38;5;208m"
 os.system('clear')
 # Génération d'une clé
 key = Fernet.generate_key()
-print("Votre clé est : ", GREEN + key.decode() + RESET)  # Pour afficher la clé en texte lisible
 baner = """
         ::::::::::::::::::::::::::::::::::::::::::
         ::::::::::::::::::::::::::::::::::::::::::
@@ -34,10 +33,11 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
 s.listen()
 print(baner)
-print(":::::::::::::::::::::::::::::::::::::::::::::: \n")
-print(GREEN + "Le serveur est prêt à accepter les connexions sur {}:{}".format(host, port))
-print("\n::::::::::::::::::::::::::::::::::::::::::::::")
+print("      :::::::::::::::::::::::::::::::::::::::::::::: \n")
+print(GREEN + "Le serveur en ecoute sur {}:{}".format(host, port))
+print("\n    ::::::::::::::::::::::::::::::::::::::::::::::")
 
+print("\nVotre clé est : ", GREEN + key.decode() + RESET)  #rendu plus lisible de la clé
 # Acceptation des clients
 try:
     while True:
