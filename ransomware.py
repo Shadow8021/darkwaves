@@ -1,8 +1,7 @@
 # coding: utf-8
 from ascii_magic import AsciiArt
- 
 import socket, os
-from cryptography.fernet import Fernet
+from fernet import Fernet
 os.system('clear')
 #Définition des couleurs 
 RED = "\033[38;5;196m"  
