@@ -34,7 +34,7 @@ s.bind((host, port))
 s.listen()
 print(baner)
 print("\t:::::::::::::::::::::::::::::::::::::::::::::: \n")
-print("\t\tLe serveur en ecoute sur {} {}:{}{}".format(GREEN, host, port, RESET))
+print("\tLe serveur en ecoute sur {} {}:{}{}".format(GREEN, host, port, RESET))
 print("\n\t::::::::::::::::::::::::::::::::::::::::::::::")
 
 print("\nVotre clé est : ", GREEN + key.decode() + RESET)  #rendu plus lisible de la clé
