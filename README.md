@@ -2,7 +2,7 @@
 # darkwaves
 **darkwaves** is a minimal, proof-of-concept (PoC) ransomware and decryption tool designed for educational and research purposes. This repository demonstrates the foundational mechanics of cryptographic malware to help developers, students, and security analysts understand how modern ransomware operates and how to build better detection and mitigation strategies
 
-this is a simple android ransomware, it will encrypted all the files in your android device 😈
+this is a simple ransomware attack usin python, it will encrypted all the files in your android device 😈
 ### Disclaimer
 ⚠️ LEGAL DISCLAIMER: This project is strictly for educational purposes and ethical research. DO NOT use this code to attack systems without explicit, mutual authorization. The author is not responsible for any misuse or damage caused by this software. Use only in isolated, virtual environments (e.g., VMs or sandboxes).
 ### Installation

